@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FCC Tic-Tac-Toe</title>
+	<link href="styling/tictactoe.css" type="text/css" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Harmattan' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div class="popContainer" id="playerSelect">
+	<div class="content">
+		<h2>Player choose: X or O?</h2>
+		<input type="button" value="X" id="exes"/>
+		<input type="button" value="O" id="oohs"/>
+	</div>
+</div>
+	<table>
+    <tr>
+        <td id="c00"></td>
+        <td id="c01"></td>
+        <td id="c02"></td>
+    </tr>
+    <tr>
+        <td id="c03"></td>
+        <td id="c04"></td>
+        <td id="c05"></td>
+    </tr>
+    <tr>
+        <td id="c06"></td>
+        <td id="c07"></td>
+        <td id="c08"></td>
+    </tr>
+</table>
+
+	<div id="onScreenMessage" class="playerAlert"></div>
+	<input type="button" value="Reset" id="reset"/>
+</body>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="JS/tictactoe.js"></script>
+</html>
